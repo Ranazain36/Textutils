@@ -43,7 +43,12 @@ function App() {
     
 <Navbar  title="Textutils" abouttext="About Textutils" mode={mode} toggleMode={toggleMode}/>
 <Alert alert={alert} />
+
+
 <div className="container my-3">
+
+ {/* ashir ice cream kha raha  */}
+ {/* ha  */}
   <Routes>
   <Route path="/about" element={<About />} />
 
@@ -54,6 +59,7 @@ function App() {
         heading="Enter the text to analyze below"
         mode={mode}
         showAlert={showAlert}
+
       />
     }
   />
